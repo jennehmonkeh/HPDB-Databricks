@@ -13,7 +13,7 @@
 
 -- COMMAND ----------
 
-SELECT * FROM default.anamorphs;
+SELECT pk_anamorph_id FROM default.anamorphs where pk_anamorph_id > 50;
 
 -- COMMAND ----------
 
